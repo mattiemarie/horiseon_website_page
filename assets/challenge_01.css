@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Body Style Elements*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Header Style Elements*/
+.horiseon-header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Header and h1 Style Elements*/
+.horiseon-header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Header, h1, and seo Style Elements*/
+.horiseon-header h1 .seo-text {
+    color: #d9dcd6;
+}
+
+/*Header and div Style Elements*/
+.horiseon-header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Header, div, and ul List Style*/
+.horiseon-header div ul {
+    list-style-type: none;
+}
+
+/*Header,div, ul, and li Display_Margin*/
+.horiseon-header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Anchor Style Text Elements*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Paragraph Font Size*/
+p {
+    font-size: 16px;
+}
+
+/*Hero Style Elements*/
+.horiseon-background-styling {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Floats Direction_Margin Alignment*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Content Style Elements*/
+.horiseon-leftside-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Benefits Style Elements*/
+.horiseon-benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Benefit-Lead Margin Size_Color*/
+.benefits-lead-generation {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Benefit-Brand Margin Size_Color*/
+.benefits-brand-awareness {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Benefit-Cost Margin Size_Color*/
+.benefits-cost-management {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Benefit-Lead, and h3 Margin Size_Text Alignment*/
+.benefits-lead-generation h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Benefit-Brand, and h3 Margin Size_Text Alignment*/
+.benefits-brand-awareness h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Benefit-Cost, and h3 Margin Size_Text Alignment*/
+.benefits-cost-management h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Benefit-Lead Image Properties*/
+.benefits-lead-generation img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Benefit-Brand Image Properties*/
+.benefits-brand-awareness img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Benefit-Cost Image Properties*/
+.benefits-cost-management img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Search-Engine-Optimization Style Elements*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Online-Reputation-Management Style Elements*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Social-Media-Marketing Elements*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Image Sizes for Left Column*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Search-Engine-Optimization, and h2 Margin_Font Sizes*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Online-Reputation-Management, and h2 Margin_Font Sizes*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Social-Media-Marketing, and h2 Margin_Font Sizes*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Footer Style Elements*/
+.made-with-love {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Footer, and h2 Font Size*/
+.made-with-love h2 {
+    font-size: 20px;
+}
